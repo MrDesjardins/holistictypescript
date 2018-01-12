@@ -6,5 +6,6 @@
         "sourceMap": false,
         "outDir": "build",
         "strictNullChecks": true,
+        "lib": [ "dom", "es2017.object", "esnext", "esnext.asynciterable"]
     }
 }
