@@ -1,0 +1,28 @@
+{
+  "name": "scratchpad",
+  "version": "1.0.0",
+  "description": "TypeScript Scripts",
+  "main": "index.js",
+  "dependencies": {
+    "reflect-metadata": "^0.1.12"
+  },
+  "devDependencies": {
+    "reflect-metadata": "^0.1.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrDesjardins/typescriptscratchpad.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Patrick Desjardins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrDesjardins/typescriptscratchpad/issues"
+  },
+  "homepage": "https://github.com/MrDesjardins/typescriptscratchpad#readme"
+}
