@@ -1,6 +1,6 @@
 // Disposable Mixin
 interface IDisposable {
-    dispose();
+    dispose(): void;
 }
 class Disposable implements IDisposable {
     isDisposed: boolean;
