@@ -33,3 +33,14 @@ const myGeneric2: MyGenericWithDefault = { myTypeWhichIsStringIfNotSpecified: "s
 function genericInferred<T>(param:T){
 }
 genericInferred("str");
+
+// Generic multi default
+interface MyGenericWithDefaults<T = string, Y> {} // Doesn't compile
+
+// Merging
+
+interface InterfaceGenericDefinedTwoPlace<T = string>{
+    myProp:T;
+}
+interface InterfaceGenericDefinedTwoPlace<T>{}
+interface InterfaceGenericDefinedTwoPlace{}

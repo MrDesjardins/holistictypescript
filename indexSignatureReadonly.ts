@@ -7,3 +7,8 @@ const map: ReadonlyCustomMap = {
 };
 console.log(map["a"]);
 map["b"] = "b"; // Doesn't compile
+
+
+interface RERERERERER {
+    readonly [index: {x:string}]: { message: string }
+}

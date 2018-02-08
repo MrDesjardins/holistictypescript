@@ -38,4 +38,5 @@ type Ipo3 = { _kindIpo3: any; } & BaseIpo;
 let ipo1: Ipo1 = { m: "1" } as Ipo1;
 let ipo2: Ipo2 = { m: "1" } as Ipo2
 let ipo3: Ipo3 = { m: "1" } as Ipo3;
+let ipo3_without_cast: Ipo3 = { m: "1", _kindIpo3:"" }; // No casting!
 ipo1 = ipo2; // Doesn't work since the underscore field is different
