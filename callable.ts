@@ -19,3 +19,10 @@ functionWithFunctionAsParameter(() => "Hello");
 // }
 // const pointer: MultipleReturns = (ss: string) => { return ""; };
 // functionWithFunctionAsParameter2(pointer);
+
+
+
+function functionWithFunctionAsParameteAnonymously(p: () => string): void {
+    const s = p();
+    console.log(s);
+}

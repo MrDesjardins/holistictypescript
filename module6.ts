@@ -1,0 +1,1 @@
+export default (input: number) => input * 10;

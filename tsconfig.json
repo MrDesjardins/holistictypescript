@@ -14,8 +14,13 @@
         ],
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
+        "typeRoots": [
+            "./node_modules",
+            "./@types"
+        ]
     },
     "include": [
-        "*.ts"
+        "./*.ts",
+        "./@types/**/*"
     ]
 }
