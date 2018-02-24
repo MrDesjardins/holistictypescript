@@ -1,2 +1,2 @@
-import { pad } from "pad";
+import * as pad from "pad";
 console.log(pad("Test", 25, '+'));

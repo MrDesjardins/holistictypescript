@@ -4,7 +4,7 @@
   "description": "TypeScript Scripts",
   "main": "index.js",
   "dependencies": {
-    "reflect-metadata": "^0.1.12"
+    "pad": "^2.0.3"
   },
   "devDependencies": {
     "reflect-metadata": "^0.1.12"

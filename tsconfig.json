@@ -13,14 +13,10 @@
             "esnext.asynciterable"
         ],
         "experimentalDecorators": true,
-        "emitDecoratorMetadata": true,
-        "typeRoots": [
-            "./node_modules",
-            "./@types"
-        ]
+        "emitDecoratorMetadata": true
     },
     "include": [
-        "./*.ts",
-        "./@types/**/*"
+        "src/**/*.ts",
+        "@types/**/*.d.ts"
     ]
 }
