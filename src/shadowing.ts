@@ -1,4 +1,4 @@
-function f1(i: number) {
+function compareWithInstanceOf(i: number) {
     console.log("Parameter value", i);
     let i: number = 10;
     console.log("Variable value", i);
@@ -10,4 +10,4 @@ function f1(i: number) {
     }
     console.log("Variable value", i);
 }
-f1(0);
+compareWithInstanceOf(0);
