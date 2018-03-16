@@ -3,7 +3,7 @@ enum MyEnum {
     ChoiceB,
     ChoiceC
 };
-const x: MyEnum = MyEnum.ChoiceA;
+const xMyEnum: MyEnum = MyEnum.ChoiceA;
 
 // - 
 
@@ -13,7 +13,7 @@ enum MyEnum2 {
     ChoiceC, // 101
     ChoiceD = MyEnum.ChoiceC // 2
 };
-const y: MyEnum2 = MyEnum2.ChoiceD;
+const yMyEnum: MyEnum2 = MyEnum2.ChoiceD;
 
 // -
 
@@ -65,8 +65,8 @@ if (power & Power.Telepathy) {
     console.log("Power of telepathy available");
 }
 
-let x = 1; // This is a single line comment
+let xMyEnum2 = 1; // This is a single line comment
 /* This can be spread on 
 multiple 
 lines */
-let y = 2; 
+let yMyEnum2 = 2; 

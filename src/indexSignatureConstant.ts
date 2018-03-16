@@ -8,8 +8,8 @@ const objectWithConstantProperties = {
     [Zaz]: () => { },
 };
 
-let a12 = x[Foo]; 
-let b2334 = x[Bar];
+let a12 = objectWithConstantProperties[Foo]; 
+let b2334 = objectWithConstantProperties[Bar];
 
 // const SERIALIZE = Symbol("serialize-method-key");
 const SERIALIZE = "serialize-method-key";

@@ -6,4 +6,4 @@ class ChildClass extends SuperClass {
         super(p2);
     }
 }
-const c = new ChildClass(1, "3");
+const childClass = new ChildClass(1, "3");

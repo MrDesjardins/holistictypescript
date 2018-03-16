@@ -1,17 +1,20 @@
-interface ICheck1 extends ICheck2 {
-    kind: "ICheck1";
+interface ICheckBase_3 {
+    baseField:string;
+}
+interface ICheck1_3 extends ICheckBase_3 {
+    kind: "ICheck1_3";
     m1: number;
 }
-interface ICheck2 {
-    kind: "ICheck2";
+interface ICheck2_3 {
+    kind: "ICheck2_3";
     m2: string;
 }
-function print(obj: ICheck1 | ICheck2): void {
+function print(obj: ICheck1_3 | ICheck2_3): void {
     switch (obj.kind) {
-        case "ICheck1":
+        case "ICheck1_3":
             console.log("I have access to m1", obj.m1);
             break;
-        case "ICheck2":
+        case "ICheck2_3":
             console.log("I have access to m2", obj.m2);
             break;
         default:

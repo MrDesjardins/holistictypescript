@@ -1,6 +1,6 @@
 interface WideOpen { }
-function f(p: WideOpen) { }
-f(1);
-f({ z: 1 });
-f(null); // Doesn't compile
-f(undefined) // Doesn't compile
+function functionWideOpen(p: WideOpen) { }
+functionWideOpen(1);
+functionWideOpen({ z: 1 });
+functionWideOpen(null); // Doesn't compile
+functionWideOpen(undefined) // Doesn't compile

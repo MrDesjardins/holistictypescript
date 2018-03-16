@@ -1,3 +1,3 @@
-let b: boolean = true;
-let reverse = !b;
-let isEqual: boolean = 1 > 0;
+let booleanB: boolean = true;
+let reverseBoolean = !booleanB;
+let isEqualBoolean: boolean = 1 > 0;
