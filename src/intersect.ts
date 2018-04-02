@@ -5,6 +5,10 @@ type IntersectType1 = T1 & T2 & T3;
 type IntersectType2 = T1 & T2;
 type IntersectType3 = T3 & T1;
 
+// const inter1: T1 = { x: "x1", y: 2 }; // Won't compile
+const inter2: T1 & T2 = { x: "x1", y: 2 }; // Compile
+const inter3: IntersectType2 = { x: "x1", y: 2 }; // Compile
+
 // With interface and intersect
 
 interface I1 {

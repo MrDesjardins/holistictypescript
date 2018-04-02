@@ -7,23 +7,17 @@ interface Failure {
     success: false;
     errorMessage: string;
 }
-function ajaxCall(): Success | Failure {
-    const ajaxResut = ajax("http://blablac.com");
-    if (ajaxResult.error) {
-        return { errorMessage: ajaxResult.error };
+
+function ajax(url: string): Success | Failure { return { success: false, errorMessage: "Error!" }; }
+function ajaxCall(): string {
+    const ajaxResult = ajax("http://blablac.com");
+    if (ajaxResult.success === true) {
+        return ajaxResult.payload; // Access to all Success interface members
     } else {
-        return {
-            httpCode: ajaxResult.code,
-            payload: ajaxResult.data
-        };
+        return ajaxResult.errorMessage; // Access to all Failure interface members
     }
 }
 const result = ajaxCall();
-if (result.success) {
-    console.log(result.payload);
-} else {
-    console.log(result.errorMessage);
-}
 
 // Constant
 

@@ -10,3 +10,4 @@ function displayVariable(param: string | boolean | number) {
         console.log(param.toPrecision(2)); // Narrowed down to number
     }
 }
+displayVariable(variable); // Display 1.0
