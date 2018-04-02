@@ -6,6 +6,7 @@
         "sourceMap": false,
         "outDir": "build",
         "strictNullChecks": true,
+        "strictPropertyInitialization": true,
         "lib": [
             "dom",
             "es2017.object",

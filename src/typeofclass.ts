@@ -1,4 +1,4 @@
-class ClassToUseWithTypeOf { private x: string; public y: string; }
+class ClassToUseWithTypeOf { private x: string = "val1"; public y: string = "val2"; }
 
 interface InterfaceTypeOf { y: string; }
 

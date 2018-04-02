@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "reflect-metadata": "^0.1.12",
-    "typescript": "^2.8.0-rc"
+    "typescript": "^2.8.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
